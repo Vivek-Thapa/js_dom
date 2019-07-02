@@ -11,6 +11,37 @@
       <h1>Document Object Model</h1>
     <script>
       // your code goes here
-    </script>
+      // ==============1================
+      let para1 = document.createElement('p');
+
+      // ==============2================
+      para1.textContent = "Hello, JavaScript";
+      // ==============3================
+      document.body.appendChild(para1);
+      // =============4==================
+      para1.innerHTML = 'I Love <strong>JavaScript</strong>';
+      // =============5==================
+      let lists = document.createElement('ul');
+     document.body.appendChild(lists);
+
+      let list1 = document.createElement('li');
+      list1.textContent = 'Buy groceries';
+      lists.appendChild(list1);
+
+      let list2 = document.createElement('li');
+      list2.textContent = 'feed the cat';
+      lists.appendChild(list2);
+
+      let list3 = document.createElement('li');
+      list3.textContent = 'Do laundry';
+      lists.appendChild(list3);
+
+      // ============6=================
+      let list4 = document.createElement('li');
+      list4.textContent = 'lock the doors';
+      lists.appendChild(list4);
+      // ============7=================
+      lists.removeChild(list2);
+  </script>
   </body>
 </html>

@@ -39,5 +39,16 @@
     const p = document.getElementsByTagName("p")[0];
     const ul = document.getElementsByTagName("ul")[0];
     // Your code goes here
-  </script>
+// ============1==========
+  document.querySelector('ul').firstElementChild.style.background = 'pink';
+// ============2==========
+    document.querySelectorAll('li').forEach(li => li.style.background = 'crimson');
+// ============3==========
+    document.body.childNodes[7].children[2].style.background = 'pink';
+// ============4==============
+    document.body.children[3].children[1];
+// ============5==============
+    document.body.children[3].children[1].previousElementSibling.style.background = 'coral';
+    document.body.children[3].children[1].nextElementSibling.style.background = 'aqua';
+      </script>
 </html>
