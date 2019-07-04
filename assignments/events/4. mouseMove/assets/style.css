@@ -1,0 +1,6 @@
+.outer-box{
+    border: 4px solid greenyellow;
+}
+.heading, .numbers{
+    text-align: center;
+}
